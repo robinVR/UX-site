@@ -1,0 +1,29 @@
+// svg
+.homepage-svgs {
+  margin: 0 auto;
+  margin-top: 2rem;
+  max-width: 261px;
+
+  @include breakpoint(large) {
+    margin-right: 40px;
+    margin-top: 0;
+    max-width: 475px;
+  }
+
+  &.bottom {
+    max-width: 451px;
+
+    @include breakpoint(large) {
+      margin-top: 3rem;
+      max-width: 551px;
+    }
+
+    @include breakpoint(xxlarge) {
+      max-width: 751px;
+    }
+  }
+}
+
+.skill-svg {
+  max-width: 220px;
+}

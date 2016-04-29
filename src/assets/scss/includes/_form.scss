@@ -1,0 +1,15 @@
+.callout.alert {
+  color: $alert-color;
+}
+
+.contact-form {
+
+  .challenge {
+    min-height: 200px;
+  }
+
+  @include breakpoint(large) {
+    padding: 2rem 2rem 0 2rem;
+    border: lightgrey 1px solid;
+  }
+}
