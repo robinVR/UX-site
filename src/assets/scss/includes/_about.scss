@@ -1,7 +1,36 @@
 .wf-loading {
-visibility: hidden;
+  visibility: hidden;
 }
 
-.wf-active, .wf-inactive {
-visibility: visible;
+.wf-active,
+.wf-inactive {
+  visibility: visible;
+}
+
+.testing::after {
+  @extend .trans;
+  // background-color: #12a9a6;
+  content: '';
+  display: block;
+  height: 4px;
+  left: 10px;
+  position: relative;
+  top: -120px;
+  width: 0;
+}
+
+.testing:hover:after {
+  background-color: #12a9a6;
+  content: '';
+  display: block;
+  height: 4px;
+  left: 10px;
+  position: relative;
+  top: -120px;
+  width: 300px;
+}
+
+
+.highlight {
+  color: #167f7d;
 }
