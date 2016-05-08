@@ -22,6 +22,10 @@
     display: inline;
   }
 
+  .button.hollow {
+    border: 2px solid $dark-green;
+  }
+
   .row {
 
     @include breakpoint(large) {
@@ -54,7 +58,7 @@
 
   .button {
     background-color: $dark-green;
-    border: 2px solid $primary-color !important;
+    border: 2px solid $primary-color;
     color: $white;
     text-decoration: none;
 
