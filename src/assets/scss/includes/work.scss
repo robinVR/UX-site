@@ -28,6 +28,7 @@ button.close-button:hover {
 .plus {
   @include breakpoint(xlarge down) {
     visibility: hidden;
+    // display: none;
   }
   @extend.trans;
   background: #881C61;
@@ -58,3 +59,4 @@ button.close-button:hover {
     border:2px solid white;
   }
 }
+

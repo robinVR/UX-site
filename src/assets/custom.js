@@ -1,3 +1,4 @@
+// Make the homepage equal height
 var divHeight = $('.first').height();
 console.log(divHeight);
 
@@ -92,10 +93,10 @@ element: document.getElementById('Page-3'),
             var piecesBlockright = $("#piece-8, #piece-7, #piece-6, #piece-5");
             var middlediamonds = $("#di01, #di02, #di03");
 
-            TweenMax.staggerTo ("#ipad-tablet" , 0.2, { opacity:1, delay: 0.1}, 0.3);
+            TweenMax.staggerTo ("#ipad-tablet" , 0.2, { opacity:1, delay: 0.01}, 0.3);
             tl.from("#Page-3 rect", 2, {drawSVG:0, ease:Power1.easeInOut})
-            TweenMax.staggerTo (piecesBlockleft , 0.3, { opacity:1, delay: 2}, 0.2);
-            TweenMax.staggerTo (piecesBlockright , 0.3, { opacity:1, delay: 2}, 0.2);
+            TweenMax.staggerTo (piecesBlockleft , 0.3, { opacity:1, delay: 1}, 0.2);
+            TweenMax.staggerTo (piecesBlockright , 0.3, { opacity:1, delay: 1}, 0.2);
             TweenMax.staggerTo (middlediamonds , 0.5, { opacity:1, delay: 2.2}, 0.5);
 
             TweenLite.set("#Page-3 rect", {visibility:"visible"});
@@ -115,9 +116,29 @@ element: document.getElementById('Page-3'),
 
 
 
+// middel section
 
+var waypoint = new Waypoint({
+  element: document.getElementById('leaf'),
+  handler: function(direction) {
+    console.log('Scrolled to middle!')
 
+    $(".leaf").addClass('js-reveal');
 
+  },
+  offset: 400
+})
+
+var waypoint = new Waypoint({
+  element: document.getElementById('devices'),
+  handler: function(direction) {
+    console.log('Scrolled to bottom!')
+
+    $(".resp").addClass('js-reveal');
+
+  },
+  offset: 400
+})
 
 
 
