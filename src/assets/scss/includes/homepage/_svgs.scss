@@ -28,13 +28,27 @@
   max-width: 220px;
 }
 
-.leaf, .resp {
-@extend.trans;
-opacity:0;
-margin-top: 100px;
+.leaf {
+  @include breakpoint(small only) {
+    max-width: 351px;
+    margin-top: 0;
+  }
+  margin-top: 100px;
+}
+
+.leaf,
+.resp {
+  @extend.trans;
+  @include breakpoint(large) {
+    opacity: 0;
+  }
 }
 
 .js-reveal {
-opacity: 1;
-margin-top: 0px;
+  @include breakpoint(large) {
+    opacity: 1;
+    margin-top: 0px;
+  }
 }
+
+

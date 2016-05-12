@@ -33,14 +33,12 @@ button.close-button:hover {
   @extend.trans;
   background: #881C61;
   border-radius: 100%;
-  // float: right;
   position: relative;
   right: 50%;
   top: 20px;
-  font-weight:400;
+  font-weight: 400;
   color: white;
   font-size: 2rem;
-  // border:1px solid grey;
   padding: 1.1rem 2rem 1.3rem 2rem;
 
   &:hover {
@@ -58,5 +56,9 @@ button.close-button:hover {
     background: $primary-color;
     border:2px solid white;
   }
+}
+
+.label {
+  border: 1px solid #D6D5D5;
 }
 
