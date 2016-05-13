@@ -1,6 +1,15 @@
 .site-top {
   display: block;
   margin-top: 43px;
+
+  img {
+    margin-bottom: 1rem;
+
+      @include breakpoint(large) {
+        margin-bottom: 0rem;
+  }
+
+}
 }
 
 .site-bottom {
@@ -62,3 +71,6 @@ button.close-button:hover {
   border: 1px solid #D6D5D5;
 }
 
+.skills-app span {
+  margin-bottom: 0.3rem;
+}

@@ -45,13 +45,16 @@
     border-top: 0;
   }
 
-  li a {
-    color: $dark-gray;
+  li  {
 
-    &:hover {
+     &:hover {
       background-color: #f5f5f5;
     }
+
+    a {
+    color: $dark-gray;
   }
+}
 }
 
 // FOUT
@@ -79,3 +82,12 @@
   }
 }
 
+.menu > li > a {
+  padding: 0.7rem 0rem 0.7rem 1rem;
+}
+
+.icon-nav {
+position: relative;
+bottom: 2px;
+right:4px;
+}
