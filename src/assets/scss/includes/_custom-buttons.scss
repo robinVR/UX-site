@@ -2,18 +2,25 @@
 
 .underline::after {
 
-  @extend .trans;
-  background-color: $white;
-  content: '';
-  display: block;
-  height: 2px;
-  margin: 0 auto;
-  position: relative;
-  top: 5px;
-  width: 0;
-}
 
+    @extend .trans;
+
+  @include breakpoint(medium) {
+    background-color: $white;
+    content: '';
+    display: block;
+    height: 2px;
+    margin: 0 auto;
+    position: relative;
+    top: 5px;
+    width: 0;
+  }
+}
 .underline:hover:after {
-  width: 100%;
+
+  @include breakpoint(medium) {
+
   color: #ffffff;
+  width: 100%;
+  }
 }

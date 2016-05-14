@@ -40,36 +40,6 @@ autoAlpha:1, delay: 4}, 0.2);
 // 2. attach a waypoint
 // 3. put greenscok animation in the function
 
-var waypoint = new Waypoint({
-element: document.getElementById('Page-2'),
-    handler: function(direction) {
-
-        console.log('action');
-        console.log(direction);
-
-
-       if (direction === 'down'){
-
-         $(".seccond-reveal").addClass('js-reveal');
-
-            var tl = new TimelineLite;
-
-            tl.from("#seccond", 1, {drawSVG:0, ease:Power1.easeInOut})
-            tl.from("#Page-2 path", 1, {drawSVG:0, ease:Power1.easeInOut})
-            TweenLite.set("#Page-2 path", {visibility:"visible"});
-       // tl.paused(true);
-
-            // tl.from("#Page-2 rect", 2, {drawSVG:0, ease:Power1.easeInOut})
-
-           this.destroy()
-
-
-        }
-}, offset: 900
-
-    // tl.pause();
-
-})
 
 
 // tablet svg illustration render

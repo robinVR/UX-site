@@ -1,5 +1,7 @@
 @charset 'utf-8';
 
+@import 'includes/fonts';
+
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
@@ -16,7 +18,7 @@
 // @include foundation-accordion;
 // @include foundation-accordion-menu;
 @include foundation-badge;
-// @include foundation-breadcrumbs;
+@include foundation-breadcrumbs;
 // @include foundation-button-group;
 @include foundation-callout;
 @include foundation-close-button;

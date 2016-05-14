@@ -30,8 +30,9 @@
 
 .leaf {
   @include breakpoint(small only) {
-    max-width: 351px;
-    margin-top: 0;
+    max-width: 251px;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
   margin-top: 100px;
 }
