@@ -1,9 +1,7 @@
 // underline animation on buttons
 
 .underline::after {
-
-
-    @extend .trans;
+  @extend .trans;
 
   @include breakpoint(medium) {
     background-color: $white;
@@ -19,7 +17,6 @@
 .underline:hover:after {
 
   @include breakpoint(medium) {
-
   color: #ffffff;
   width: 100%;
   }

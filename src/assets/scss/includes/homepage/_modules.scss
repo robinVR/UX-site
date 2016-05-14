@@ -2,6 +2,7 @@
   margin-top: 0 !important;
 }
 
+
 .primary-hp {
   @include breakpoint(large) {
     height: calc(100% - 63px);
@@ -99,6 +100,6 @@
 
 html,
 body {
-  height: 100%;
+  height: 102.7%;
 }
 

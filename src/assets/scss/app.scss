@@ -47,6 +47,8 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
+// main transition include
+
 .trans {
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
@@ -63,20 +65,6 @@
 @import 'includes/case-studies';
 
 
-.no-js .top-bar {
-  display: none;
-}
-
-@media screen and (min-width: 40em) {
-  .no-js .top-bar {
-    display: block;
-  }
-
-  .no-js .title-bar {
-    display: none;
-  }
-}
-
 .menu-icon.white {
   // Only affects medium screens, not small or large
   @include breakpoint(large only) {
@@ -84,18 +72,23 @@
   }
 }
 
-    .no-js .top-bar {
-  display: none;
-}
-
-@media screen and (min-width: 40em) {
-  .no-js .top-bar {
-    display: block;
+.no-js {
+  @include breakpoint(small only) {
+    .top-bar {
+      display: none;
+    }
   }
 
-  .no-js .title-bar {
-    display: none;
+  @include breakpoint(medium) {
+    .title-bar {
+      display: none;
+    }
   }
 }
 
-
+.all-nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999999;
+}

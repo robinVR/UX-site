@@ -1,5 +1,9 @@
 .case-study {
-  padding: 8rem 0 8rem 0;
+  padding: 3rem 0 3rem 0;
+
+  @include breakpoint(medium) {
+    padding: 8rem 0 8rem 0;
+  }
 }
 
 .problem h5 {
@@ -13,6 +17,6 @@ strong {
 }
 
 .user-case {
-  border: 1px solid grey;
+  border: 1px solid $medium-gray;
 }
 

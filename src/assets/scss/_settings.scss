@@ -61,6 +61,8 @@ $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
+$purple: #881c61;
+$extra-blue: #0b799a;
 $body-background: $white;
 $body-font-color: #808080;
 $body-font-family: 'europa', sans-serif;
@@ -109,10 +111,10 @@ $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-sizes: (
   small: (
-    'h1': 24,
-    'h2': 20,
-    'h3': 19,
-    'h4': 18,
+    'h1': 28,
+    'h2': 26,
+    'h3': 24,
+    'h4': 24,
     'h5': 17,
     'h6': 16,
   ),
