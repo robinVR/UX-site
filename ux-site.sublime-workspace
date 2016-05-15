@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"pad",
+				"padding-top"
+			],
+			[
 				"gulp",
 				"gulp-pixrem"
 			],
@@ -44,79 +48,15 @@
 	"buffers":
 	[
 		{
-			"file": "src/pages/index.html",
+			"file": "src/partials/sites-top.html",
 			"settings":
 			{
-				"buffer_size": 3200,
+				"buffer_size": 3826,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/assets/scss/includes/homepage/_svgs.scss",
-			"settings":
-			{
-				"buffer_size": 732,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/assets/scss/includes/_about.scss",
-			"settings":
-			{
-				"buffer_size": 503,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/partials/case-1-user-testing.html",
-			"settings":
-			{
-				"buffer_size": 3711,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/partials/case.html",
-			"settings":
-			{
-				"buffer_size": 1643,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/partials/sites-bottom.html",
-			"settings":
-			{
-				"buffer_size": 3565,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/partials/case-1-users.html",
-			"settings":
-			{
-				"buffer_size": 1994,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/assets/scss/includes/_work.scss",
-			"settings":
-			{
-				"buffer_size": 1098,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/assets/scss/_settings.scss",
-			"settings":
-			{
-				"buffer_size": 14518,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/assets/scss/app.scss",
+			"file": "src/pages/skills.html",
 			"settings":
 			{
 				"buffer_size": 2221,
@@ -124,45 +64,58 @@
 			}
 		},
 		{
-			"file": "package.json",
+			"file": "src/pages/contact.html",
 			"settings":
 			{
-				"buffer_size": 1931,
+				"buffer_size": 2912,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "0 info it worked if it ends with ok\n1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'start' ]\n2 info using npm@2.15.1\n3 info using node@v4.4.3\n4 verbose run-script [ 'prestart', 'start', 'poststart' ]\n5 info prestart foundation-zurb-template@1.0.0\n6 info start foundation-zurb-template@1.0.0\n7 verbose unsafe-perm in lifecycle true\n8 info foundation-zurb-template@1.0.0 Failed to exec start script\n9 verbose stack Error: foundation-zurb-template@1.0.0 start: `gulp`\n9 verbose stack Exit status 1\n9 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:217:16)\n9 verbose stack     at emitTwo (events.js:87:13)\n9 verbose stack     at EventEmitter.emit (events.js:172:7)\n9 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)\n9 verbose stack     at emitTwo (events.js:87:13)\n9 verbose stack     at ChildProcess.emit (events.js:172:7)\n9 verbose stack     at maybeClose (internal/child_process.js:827:16)\n9 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)\n10 verbose pkgid foundation-zurb-template@1.0.0\n11 verbose cwd /Users/robin/Desktop/UX-site\n12 error Darwin 15.4.0\n13 error argv \"/usr/local/bin/node\" \"/usr/local/bin/npm\" \"start\"\n14 error node v4.4.3\n15 error npm  v2.15.1\n16 error code ELIFECYCLE\n17 error foundation-zurb-template@1.0.0 start: `gulp`\n17 error Exit status 1\n18 error Failed at the foundation-zurb-template@1.0.0 start script 'gulp'.\n18 error This is most likely a problem with the foundation-zurb-template package,\n18 error not with npm itself.\n18 error Tell the author that this fails on your system:\n18 error     gulp\n18 error You can get information on how to open an issue for this project with:\n18 error     npm bugs foundation-zurb-template\n18 error Or if that isn't available, you can get their info via:\n18 error\n18 error     npm owner ls foundation-zurb-template\n18 error There is likely additional logging output above.\n19 verbose exit [ 1, true ]\n",
-			"file": "npm-debug.log",
-			"file_size": 2031,
-			"file_write_time": 131077095890000000,
+			"file": "src/assets/scss/includes/_work.scss",
 			"settings":
 			{
-				"buffer_size": 2031,
+				"buffer_size": 1128,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "gulpfile.babel.js",
+			"file": "src/assets/scss/includes/_form.scss",
 			"settings":
 			{
-				"buffer_size": 4048,
+				"buffer_size": 207,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "dist/assets/css/app.css",
+			"file": "src/assets/scss/includes/_custom-buttons.scss",
 			"settings":
 			{
-				"buffer_size": 600692,
+				"buffer_size": 365,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "dist/assets/css/app.min.css",
+			"file": "src/assets/scss/app.scss",
 			"settings":
 			{
-				"buffer_size": 83744,
+				"buffer_size": 2157,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/assets/scss/includes/_util.scss",
+			"settings":
+			{
+				"buffer_size": 2271,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/assets/scss/includes/homepage/_modules.scss",
+			"settings":
+			{
+				"buffer_size": 1818,
 				"line_ending": "Unix"
 			}
 		},
@@ -175,37 +128,117 @@
 			}
 		},
 		{
-			"contents": "Package Control Messages\n========================\n\nMinify\n------\n\n  Thank you for installing `Minify` for Sublime Text\n  ==================================================\n  \n  You must complete the installation by installing the required dependencies\n  --------------------------------------------------------------------------\n  \n  1. If you see this message in your Sublime Text editor then you have already installed the `Minify` package.\n      Please proceed to step 2:\n  \n  2. Install Node.js:\n  \n    Windows and Mac OS X users should just visit https://nodejs.org/ and click on the INSTALL button,\n    Linux users can download pre-compiled binary files from https://nodejs.org/download/\n  \n    After successful installation, please make sure that `node` is in your `PATH`, here is how to test it:\n  \n    Open up a shell window (`Terminal` on Mac OS X, `CMD.exe` on Windows) and issue the following command:\n  \n    node --version\n  \n    You should see a version number. But if you see an error message such as `command not found` or something\n    similar then `node` is not available via your `PATH` and you must fix this!\n  \n  3. Install required Node.js CLI apps:\n  \n    From a shell window (`Terminal` on Mac OS X, `CMD.exe` on Windows) issue the following command:\n  \n    npm install -g clean-css uglifycss js-beautify html-minifier uglify-js minjson svgo\n  \n    Notes:\n  \n      If you are on Mac OS X and you get an error here then issue the following command from `Terminal`:\n      `sudo chown -R $USER /usr/local` and then try to issue the npm install command from above again.\n  \n      If you are never going to work with e.g. SVG files then you can leave out `svgo` from the above npm\n      install command. You can also leave out `uglifycss`, etc.\n  \n      If you already have some or all of the above Node.js CLI apps installed on your system then it is\n      recommended to update them all to the latest version with the following command:\n  \n      npm update -g clean-css uglifycss js-beautify html-minifier uglify-js minjson svgo\n  \n    Please test that the installed Node.js CLI apps are available via your `PATH`, here is how:\n  \n    Still from a shell window (`Terminal` on Mac OS X, `CMD.exe` on Windows) issue the following command,\n    for example:\n  \n    cleancss --version\n  \n    You should see a version number. But if you see an error message such as `command not found` or something\n    similar then `cleancss` is not available via your `PATH` and you must fix this!\n  \n    You may want to do this test for all Node.js CLI apps (`cleancss`, `uglifycss`, `js-beautify`, `uglifyjs`,\n    `html-minifier`, `minjson` and `svgo`).\n  \n  \n  What is `Minify`\n  ----------------\n  \n  `Minify` for Sublime Text can create a minified version of a currently open CSS, HTML, JavaScript, JSON or SVG file.\n  \n  `Minify` generates a new file with an altered file extension such as `.min.css`, `.min.html`, `.min.js`, `.min.json`\n  or `.min.svg`.\n  It can be easily configured to generate .map files too for minified CSS and JavaScript files.\n  \n  Compared to other Sublime Text minifier packages `Minify` is very light: the plugin itself is less than 250 lines\n  of Python code. Once installed `Minify` does not need Internet access to do its job, it works offline.\n  \n  `Minify` has been tested under both Sublime Text 2 and Sublime Text 3 and it should work fine on all supported\n  platforms (Linux, Mac OS X and Windows).\n  \n  `Minify` depends on other programs written in Node.js to do its job. Detailed installation instructions for\n  those dependencies are provided above.\n  \n  Which 3rd party programs are used by `Minify`\n  ---------------------------------------------\n  \n  |------------------------------------------------------------------|\n  |            |         Minify           |      Beautify            |\n  |------------|--------------------------|--------------------------|\n  | CSS        | clean-css or uglifycss   | js-beautify --css        |\n  | HTML       | html-minifier            | js-beautify --html       |\n  | JavaScript | uglifyjs                 | uglifyjs --beautify      |\n  | JSON       | minjson (uses UglifyJS)  | minjson (uses UglifyJS)  |\n  | SVG        | svgo                     | svgo --pretty            |\n  |------------------------------------------------------------------|\n  \n  How to use `Minify`\n  -------------------\n  \n  Open a `.css` or `.htm` or `.html` or `.js` or `.json` or `.svg` file in your Sublime Text editor and you can\n  \n    a) use the Context Menu inside the Sublime Text editor window,\n  \n    b) access the `Minify file` or `Beautify file` commands under Tools / Minify menu in Sublime Text,\n  \n    c) use one of the following keyboard shortcuts:\n  \n    `ctrl + alt + m` ( `super + alt + m` on Mac OS X )\n  \n    This minifies the current buffer and saves the minified version into the same directory with the\n    appropriate .min.css or .min.htm or .min.html or .min.js or .min.svg file extension\n    then it opens the minified file in a new editor window.\n  \n    `ctrl + alt + shift + m` ( `super + alt + shift + m` on Mac OS X )\n  \n    This beautifies the current buffer and saves the beautified version into the same directory with the\n    appropriate .beautified.css or .beautified.htm or .beautified.html or .beautified.js or .pretty.svg file\n    extension then it opens the beautified file in a new editor tab.\n  \n  User settings\n  -------------\n  \n  Please place your customized settings into:\n  \n    Preferences > Package Settings > Minify > Settings - User\n  \n  To find out what the possible options are please see:\n  \n    Preferences > Package Settings > Minify > Settings - Default\n  \n  Project settings\n  ----------------\n  \n  You can override the default and user settings for individual projects. Just add a \"Minify\" object to\n  the \"settings\" object in the project's .sublime-project file containing your project specific settings.\n  \n  Example:\n  \n  {\n      \"settings\": {\n          \"Minify\": {\n              \"open_file\": false,\n              \"auto_minify_on_save\": true,\n              \"allowed_file_types\": [\n                  \"css\",\n                  \"js\",\n                  \"svg\"\n              ]\n          }\n      }\n  }\n  \n  License\n  -------\n  \n  See https://github.com/tssajo/Minify/blob/master/LICENSE.md for licensing information.\n",
+			"file": "src/partials/navigation.html",
 			"settings":
 			{
-				"buffer_size": 6334,
-				"line_ending": "Unix",
-				"name": "Package Control Messages",
-				"read_only": true,
-				"scratch": true
-			}
-		},
-		{
-			"file": "config.yml",
-			"settings":
-			{
-				"buffer_size": 2650,
+				"buffer_size": 1733,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/assets/scss/includes/_fonts.scss",
+			"file": "src/partials/case.html",
 			"settings":
 			{
-				"buffer_size": 91,
+				"buffer_size": 1650,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "src/assets/scss/includes/_form.scss",
+			"file": "src/pages/case-1.html",
 			"settings":
 			{
-				"buffer_size": 202,
+				"buffer_size": 331,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/partials/case-1-top.html",
+			"settings":
+			{
+				"buffer_size": 772,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/partials/case-1-wireframe.html",
+			"settings":
+			{
+				"buffer_size": 2500,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/partials/case-1-user-testing-1.html",
+			"settings":
+			{
+				"buffer_size": 2521,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/partials/case-1-user-testing-2.html",
+			"settings":
+			{
+				"buffer_size": 1424,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\ntitle: Robin's Blog\ndescription: Blog about UX and Front end Design.\n---\n\n<div class=\"row\" id=\"codebar\">\n  <div class=\"small-centered spacing-3 small-12 large-text-left columns\">\n    <div id=\"block\">\n      <h3>\n        <span class=\"left\">codebar in Cambridge</span>\n        <span class=\"date right spacing-1\">25/09/2015</span>\n      </h3>\n    </div>\n    <div class=\"row\">\n      <div class=\"large-8 spacing-1 columns\">\n        <p>codebar began out of recognition that there is a shortage of women, LGBTQ, and people belonging to underrepresented ethnic groups in tech. To help bridge the gap a non-profit initiative was formed that facilitates the growth of a diverse tech community by running regular programming workshops in England. There are 3 large chapters in London and smaller chapters in Brighton, Birmingham and Manchester.</p>\n        <p>The workshops are safe environments with coaches agreeing to a code of conduct before teaching that ensures everyone is treated with respect and we approach coding in way that tries not to be daunting or scary.</p>\n        <p>Our students come from a variety of backgrounds, some want to become developers and others would simply like to learn the basics of coding in a supportive and social environment. We currently teach HTML, CSS, JavaScript, Git usage and Python, with an aim to expand into other languages at a later point.</p>\n        <p>I’ve been helping coordinating Cambridge’s chapter since March this year. Currently we meet about once a month at the <a href=\"http://makespace.org\">Cambridge Makespace</a> / on Wednesday evenings for pizza and social meet up before I pair students off in either 1:1 or 1:2 ratio (e.g 1 coach, 2 students.). The coach and student agree to a structure of what they want to learn on the day. Sometimes is can be as simple as providing advice in tricky part of application or website the student is creating or teaching a series of lessons / tutorials featured on the codebar.io site.</p>\n        <p>Coaching can be daunting at first especially if students may be completely new to programming concepts. I’ve found it rewarding because it forces you to explain concepts or ideas out of your normal comfort zone of technical people but to a broader demographic who may or may not have experience .</p>\n        <p>Recently ARM has begun sponsoring our sessions with the aim of supporting diversity in a wider landscape. We are currently accepting new students that fit the diversity criteria (<a href=\"http://codebar.io/student-guide\">http://codebar.io/student-guide</a>) and coaches from any background*.</p>\n        <p>If your interested in coaching please sign up at <a href=\"http://codebar.io\">codebar.io</a></p>\n      </div>\n    </div>\n    <hr>\n    <br>\n    <br>\n    <div id=\"block\">\n      <h3>\n      <span class=\"left\">Unique experiences & digital reproduction</span>\n      <span class=\"date right spacing-1\">25/09/2015</span></h3>\n    </div>\n    <div class=\"row\">\n      <div class=\"large-8 spacing-1 columns\">\n        <p data-height=\"681\" data-theme-id=\"17715\" data-slug-hash=\"ZYLvBK\" data-default-tab=\"result\" data-user=\"RobinVr\" class='codepen'>See the Pen <a href='http://codepen.io/RobinVr/pen/ZYLvBK/'>SVG Color random generator</a> by robin (<a href='http://codepen.io/RobinVr'>@RobinVr</a>) on <a href='http://codepen.io'>CodePen</a>.</p>\n        <script async src=\"//assets.codepen.io/assets/embed/ei.js\"></script>\n        <p class=\"spacing-1\">\n          The generative piece submitted is part of a larger branch of thought I have probably been exploring since stumbling upon Brian Enos generative music in my early 20's. Generative art has been countlessly explored it’s not an unchartered realm, and it makes up lot of daily experience in the form of computer games and what not. In terms of consumerism, it’s getting to the point where I’m wondering if in my lifetime there will be a point where we no longer desire objects but crave systems able to create unique objects? You may argue that this already happens but it’s not to the extent every experience is different or has huge parameters of changes between each experience.</p>\n        <p>\n          Whilst a lot of social bonds and friendships are between common experience, artifacts, icons but what has always fascinated me is the sheer amount of permutations and random output systems are able to create.</p>\n        <p>\n          The code (SVG, SASS, Javascript) I’ve created is probably the first time I have written my own very very simple system from scratch rather than relied of other peoples algorithms or programs to generate an image or music. It was quite refreshing to not just set the small things that define the limits of what is created but actually set something up that creates the whole experience. As it’s super simple I’m hoping others can look at the code and see how its all put together and define there own starting color and then hammer the button a few times and generate a variety of different options.</p>\n        <p>\n          I expect I will probably create something much larger with SVG in the near distance future or maybe some kind of larger graphic generative experience.</p>\n      </div>\n    </div>\n    <hr>\n    <br>\n    <br>\n  </div>\n  <!-- end colum-1 -->\n</div>\n</div>\n<!-- end colum-2 -->\n",
+			"file": "src/pages/blog.html",
+			"file_size": 5334,
+			"file_write_time": 131067782620000000,
+			"settings":
+			{
+				"buffer_size": 5306,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/pages/about.html",
+			"settings":
+			{
+				"buffer_size": 4996,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/partials/case-1-users.html",
+			"settings":
+			{
+				"buffer_size": 2047,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/partials/case-1-challenge.html",
+			"settings":
+			{
+				"buffer_size": 1301,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/assets/scss/_settings.scss",
+			"settings":
+			{
+				"buffer_size": 14558,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/assets/scss/includes/_about.scss",
+			"settings":
+			{
+				"buffer_size": 508,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/assets/scss/includes/_case-studies.scss",
+			"settings":
+			{
+				"buffer_size": 277,
 				"line_ending": "Unix"
 			}
 		},
@@ -213,7 +246,7 @@
 			"file": "src/assets/scss/includes/_navigation.scss",
 			"settings":
 			{
-				"buffer_size": 1264,
+				"buffer_size": 954,
 				"line_ending": "Unix"
 			}
 		},
@@ -222,54 +255,6 @@
 			"settings":
 			{
 				"buffer_size": 661,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/partials/sites-top.html",
-			"settings":
-			{
-				"buffer_size": 3258,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/partials/svg-top.html",
-			"settings":
-			{
-				"buffer_size": 25241,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/pages/about.html",
-			"settings":
-			{
-				"buffer_size": 4983,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/partials/navigation.html",
-			"settings":
-			{
-				"buffer_size": 1783,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/assets/scss/includes/_case-studies.scss",
-			"settings":
-			{
-				"buffer_size": 204,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/assets/scss/includes/_custom-buttons.scss",
-			"settings":
-			{
-				"buffer_size": 370,
 				"line_ending": "Unix"
 			}
 		}
@@ -320,55 +305,69 @@
 	"expanded_folders":
 	[
 		"/Users/robin/Desktop/UX-site",
-		"/Users/robin/Desktop/UX-site/dist",
-		"/Users/robin/Desktop/UX-site/dist/assets",
-		"/Users/robin/Desktop/UX-site/dist/assets/css",
-		"/Users/robin/Desktop/UX-site/dist/assets/js",
 		"/Users/robin/Desktop/UX-site/src",
 		"/Users/robin/Desktop/UX-site/src/assets",
 		"/Users/robin/Desktop/UX-site/src/assets/scss",
-		"/Users/robin/Desktop/UX-site/src/layouts"
+		"/Users/robin/Desktop/UX-site/src/assets/scss/components",
+		"/Users/robin/Desktop/UX-site/src/assets/scss/includes",
+		"/Users/robin/Desktop/UX-site/src/assets/scss/includes/homepage",
+		"/Users/robin/Desktop/UX-site/src/layouts",
+		"/Users/robin/Desktop/UX-site/src/pages",
+		"/Users/robin/Desktop/UX-site/src/partials"
 	],
 	"file_history":
 	[
+		"/Users/robin/Desktop/UX-site/src/assets/scss/includes/_custom-buttons.scss",
+		"/Users/robin/Desktop/UX-site/src/assets/scss/includes/_case-studies.scss",
+		"/Users/robin/Desktop/UX-site/src/partials/navigation.html",
+		"/Users/robin/Desktop/UX-site/src/pages/about.html",
+		"/Users/robin/Desktop/UX-site/src/partials/svg-top.html",
+		"/Users/robin/Desktop/UX-site/src/partials/sites-top.html",
+		"/Users/robin/Desktop/UX-site/src/pages/work.html",
+		"/Users/robin/Desktop/UX-site/src/assets/scss/includes/_navigation.scss",
+		"/Users/robin/Desktop/UX-site/src/assets/scss/includes/_form.scss",
+		"/Users/robin/Desktop/UX-site/src/assets/scss/includes/_fonts.scss",
+		"/Users/robin/Desktop/UX-site/config.yml",
+		"/Users/robin/Desktop/UX-site/src/layouts/default.html",
+		"/Users/robin/Desktop/UX-site/dist/assets/css/app.css",
+		"/Users/robin/Desktop/UX-site/gulpfile.babel.js",
+		"/Users/robin/Desktop/UX-site/npm-debug.log",
+		"/Users/robin/Desktop/UX-site/src/pages/index.html",
+		"/Users/robin/Desktop/UX-site/src/assets/scss/includes/homepage/_svgs.scss",
+		"/Users/robin/Desktop/UX-site/src/assets/scss/includes/_about.scss",
+		"/Users/robin/Desktop/UX-site/src/partials/case-1-user-testing.html",
+		"/Users/robin/Desktop/UX-site/src/partials/case.html",
+		"/Users/robin/Desktop/UX-site/src/partials/sites-bottom.html",
+		"/Users/robin/Desktop/UX-site/src/partials/case-1-users.html",
+		"/Users/robin/Desktop/UX-site/src/assets/scss/includes/_work.scss",
+		"/Users/robin/Desktop/UX-site/src/assets/scss/_settings.scss",
+		"/Users/robin/Desktop/UX-site/src/assets/scss/app.scss",
+		"/Users/robin/Desktop/UX-site/package.json",
+		"/Users/robin/Desktop/UX-site/dist/assets/css/app.min.css",
 		"/Users/robin/Desktop/UX-site/gulpfile2.js",
 		"/Users/robin/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/Users/robin/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
 		"/Users/robin/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
-		"/Users/robin/Desktop/UX-site/gulpfile.babel.js",
 		"/Users/robin/Desktop/UX-site/src/assets/custom.js",
 		"/Users/robin/Desktop/UX-site/src/pages/skills.html",
-		"/Users/robin/Desktop/UX-site/src/partials/navigation.html",
 		"/Users/robin/Desktop/UX-site/src/partials/svg-middle.html",
-		"/Users/robin/Desktop/UX-site/src/layouts/default.html",
 		"/Users/robin/Desktop/UX-site/src/pages/case-1.html",
 		"/Users/robin/Desktop/UX-site/src/partials/case-1-challenge.html",
 		"/Users/robin/Desktop/UX-site/src/partials/case-1-top.html",
 		"/Users/robin/Desktop/UX-site/src/partials/case-1-wireframe.html",
-		"/Users/robin/Desktop/UX-site/src/partials/case.html",
 		"/Users/robin/Desktop/UX-site/sites.html",
-		"/Users/robin/Desktop/UX-site/src/assets/scss/includes/_navigation.scss",
 		"/Users/robin/Desktop/UX-site/src/partials/sitesbottom.html",
-		"/Users/robin/Desktop/UX-site/src/partials/case-1-user-testing.html",
-		"/Users/robin/Desktop/UX-site/src/partials/case-1-users.html",
 		"/Users/robin/Desktop/UX-site/src/pages/case-1-challenge.html",
 		"/Users/robin/Desktop/UX-site/src/partials/svg-bottom.html",
-		"/Users/robin/Desktop/UX-site/src/assets/scss/includes/_case-studies.scss",
-		"/Users/robin/Desktop/UX-site/src/assets/scss/includes/homepage/_svgs.scss",
 		"/Users/robin/Desktop/UX-site/src/assets/scss/includes/work.scss",
-		"/Users/robin/Desktop/UX-site/src/pages/index.html",
-		"/Users/robin/Desktop/UX-site/src/pages/work.html",
 		"/Users/robin/Desktop/UX-site/src/partials/sitestop.html",
 		"/Users/robin/Desktop/UX-site/src/assets/scss/includes/homepage/_modules.scss",
 		"/Users/robin/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
-		"/Users/robin/Desktop/UX-site/src/assets/scss/app.scss",
-		"/Users/robin/Desktop/UX-site/src/assets/scss/_settings.scss",
 		"/Users/robin/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
 		"/Users/robin/Desktop/UX-site/src/assets/js/waypoints.js",
 		"/Users/robin/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/robin/Desktop/UX-site/src/partials/hr.html",
 		"/Users/robin/Desktop/UX-site/src/pages/contact.html",
-		"/Users/robin/Desktop/UX-site/src/pages/about.html",
 		"/Users/robin/Desktop/UX-site/src/partials/hr-line.html",
 		"/Users/robin/Desktop/leaf.svg",
 		"/Users/robin/Desktop/UX-site/readme.md"
@@ -389,6 +388,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"medium-",
+			"large-6",
 			"menu",
 			"server",
 			" label",
@@ -416,54 +417,111 @@
 	"groups":
 	[
 		{
-			"selected": 15,
+			"selected": 17,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/pages/index.html",
+					"file": "src/partials/sites-top.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3200,
+						"buffer_size": 3826,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1345,
-								1345
+								3579,
+								3579
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"spell_check": true,
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 23,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "src/assets/scss/includes/homepage/_svgs.scss",
+					"file": "src/pages/skills.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 732,
+						"buffer_size": 2221,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								528,
-								528
+								161,
+								161
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/pages/contact.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2912,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								113,
+								113
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/assets/scss/includes/_work.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1128,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1065,
+								1077
 							]
 						],
 						"settings":
@@ -479,20 +537,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "src/assets/scss/includes/_about.scss",
+					"buffer": 4,
+					"file": "src/assets/scss/includes/_form.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 503,
+						"buffer_size": 207,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								404,
-								404
+								189,
+								189
 							]
 						],
 						"settings":
@@ -504,200 +562,53 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/partials/case-1-user-testing.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3711,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1953,
-								1953
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"spell_check": true,
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 24,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "src/partials/case.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1643,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								686,
-								686
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 27,
+					"stack_index": 18,
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "src/partials/sites-bottom.html",
+					"file": "src/assets/scss/includes/_custom-buttons.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3565,
+						"buffer_size": 365,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								325,
+								325
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 7.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 26,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "src/partials/case-1-users.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1994,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1745,
-								1745
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"spell_check": false,
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 25,
+					"stack_index": 19,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "src/assets/scss/includes/_work.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1098,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								607,
-								607
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 489.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 15,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "src/assets/scss/_settings.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 14518,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								14388,
-								14392
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 8819.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 16,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
+					"buffer": 6,
 					"file": "src/assets/scss/app.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2221,
+						"buffer_size": 2157,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								37,
-								37
+								2154,
+								2154
 							]
 						],
 						"settings":
@@ -706,159 +617,72 @@
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 859.0,
+						"translation.y": 418.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/assets/scss/includes/_util.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2271,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1430,
+								598
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 221.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/assets/scss/includes/homepage/_modules.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1818,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1812,
+								1812
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 605.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
-					"file": "package.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1931,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1386,
-								1397
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/Theme - Afterglow/Prefs/Langs/npm JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "npm-debug.log",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2031,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "gulpfile.babel.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4048,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2331,
-								2331
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1101.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "dist/assets/css/app.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 600692,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								600692
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 14,
-					"file": "dist/assets/css/app.min.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 83744,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 15,
+					"buffer": 9,
 					"file": "src/layouts/default.html",
 					"semi_transient": false,
 					"settings":
@@ -870,8 +694,240 @@
 						"selection":
 						[
 							[
-								446,
-								446
+								2384,
+								2384
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "src/partials/navigation.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1733,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								67,
+								67
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "src/partials/case.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1650,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								842,
+								842
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "src/pages/case-1.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 331,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								129,
+								129
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "src/partials/case-1-top.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 772,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								717,
+								717
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 23,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "src/partials/case-1-wireframe.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2500,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2446,
+								2446
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "src/partials/case-1-user-testing-1.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2521,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2307,
+								2307
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 25,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "src/partials/case-1-user-testing-2.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1424,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1088,
+								1088
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "src/pages/blog.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 5306,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -887,110 +943,136 @@
 					"type": "text"
 				},
 				{
-					"buffer": 16,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6334,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1365,
-								1282
-							]
-						],
-						"settings":
-						{
-							"auto_indent": false,
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"default_dir": "/Users/robin/Desktop/UX-site",
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_width": 2,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 347.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 17,
-					"file": "config.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2650,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2475,
-								2475
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/YAML/YAML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
 					"buffer": 18,
-					"file": "src/assets/scss/includes/_fonts.scss",
+					"file": "src/pages/about.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 91,
+						"buffer_size": 4996,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								91,
-								91
+								135,
+								135
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/Rails/Ruby Haml.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 18,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
 					"buffer": 19,
-					"file": "src/assets/scss/includes/_form.scss",
+					"file": "src/partials/case-1-users.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 202,
+						"buffer_size": 2047,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								202,
-								202
+								568,
+								568
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "src/partials/case-1-challenge.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1301,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								877,
+								877
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 24,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "src/assets/scss/_settings.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14558,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1135,
+								1124
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 295.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "src/assets/scss/includes/_about.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 508,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								472,
+								472
 							]
 						],
 						"settings":
@@ -1000,42 +1082,71 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "src/assets/scss/includes/_case-studies.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 277,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								272,
+								272
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "src/assets/scss/includes/_navigation.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 954,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								953,
+								953
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 214.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 17,
 					"type": "text"
 				},
 				{
-					"buffer": 20,
-					"file": "src/assets/scss/includes/_navigation.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1264,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								450,
-								450
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 21,
+					"buffer": 25,
 					"file": "src/pages/work.html",
 					"semi_transient": false,
 					"settings":
@@ -1047,8 +1158,8 @@
 						"selection":
 						[
 							[
-								632,
-								632
+								148,
+								148
 							]
 						],
 						"settings":
@@ -1060,183 +1171,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 21,
-					"type": "text"
-				},
-				{
-					"buffer": 22,
-					"file": "src/partials/sites-top.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3258,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1398,
-								1443
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"spell_check": true,
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 20,
-					"type": "text"
-				},
-				{
-					"buffer": 23,
-					"file": "src/partials/svg-top.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 25241,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								274,
-								274
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 19,
-					"type": "text"
-				},
-				{
-					"buffer": 24,
-					"file": "src/pages/about.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4983,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4282,
-								4282
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"spell_check": true,
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 25,
-					"file": "src/partials/navigation.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1783,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1086,
-								1086
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 26,
-					"file": "src/assets/scss/includes/_case-studies.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 204,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								161,
-								161
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 27,
-					"file": "src/assets/scss/includes/_custom-buttons.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 370,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								302,
-								302
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
