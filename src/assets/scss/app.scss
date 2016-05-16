@@ -1,5 +1,7 @@
 @charset 'utf-8';
 
+@import 'includes/fonts';
+
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
@@ -13,11 +15,11 @@
 @include foundation-forms;
 @include foundation-visibility-classes;
 @include foundation-float-classes;
-@include foundation-accordion;
-@include foundation-accordion-menu;
+// @include foundation-accordion;
+// @include foundation-accordion-menu;
 @include foundation-badge;
 @include foundation-breadcrumbs;
-@include foundation-button-group;
+// @include foundation-button-group;
 @include foundation-callout;
 @include foundation-close-button;
 @include foundation-drilldown-menu;
@@ -25,27 +27,27 @@
 @include foundation-dropdown-menu;
 @include foundation-flex-video;
 @include foundation-label;
-@include foundation-media-object;
+// @include foundation-media-object;
 @include foundation-menu;
-@include foundation-off-canvas;
-@include foundation-orbit;
-@include foundation-pagination;
-@include foundation-progress-bar;
-@include foundation-slider;
+// @include foundation-off-canvas;
+// @include foundation-orbit;
+// @include foundation-pagination;
+// @include foundation-progress-bar;s
+// @include foundation-slider;
 @include foundation-sticky;
 @include foundation-reveal;
-@include foundation-switch;
+// @include foundation-switch;
 @include foundation-table;
 @include foundation-tabs;
-@include foundation-thumbnail;
+// @include foundation-thumbnail;
 @include foundation-title-bar;
 @include foundation-tooltip;
 @include foundation-top-bar;
 @include foundation-menu-icon;
-
-
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+// main transition include
 
 .trans {
   -webkit-transition: all 0.3s ease-out;
@@ -59,20 +61,10 @@
 @import 'includes/util';
 @import 'includes/about';
 @import 'includes/form';
+@import 'includes/work';
+@import 'includes/case-studies';
+@import 'includes/footer';
 
-    .no-js .top-bar {
-  display: none;
-}
-
-@media screen and (min-width: 40em) {
-  .no-js .top-bar {
-    display: block;
-  }
-
-  .no-js .title-bar {
-    display: none;
-  }
-}
 
 .menu-icon.white {
   // Only affects medium screens, not small or large
@@ -81,18 +73,27 @@
   }
 }
 
-    .no-js .top-bar {
-  display: none;
-}
-
-@media screen and (min-width: 40em) {
-  .no-js .top-bar {
-    display: block;
+.no-js {
+  @include breakpoint(small only) {
+    .top-bar {
+      display: none;
+    }
   }
 
-  .no-js .title-bar {
-    display: none;
+  @include breakpoint(medium) {
+    .title-bar {
+      display: none;
+    }
   }
 }
+
+
+.larger-heading {
+  @include breakpoint(medium) {
+    font-size: 2.72727rem;
+  }
+}
+
+
 
 

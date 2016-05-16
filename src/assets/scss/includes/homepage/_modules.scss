@@ -2,72 +2,62 @@
   margin-top: 0 !important;
 }
 
-.primary-hp {
 
+.primary-hp {
   @include breakpoint(large) {
     height: calc(100% - 63px);
   }
-
   @include breakpoint(xlarge) {
     height: calc(100% - 63px);
   }
-
   .top__heading {
     display: block;
     font-weight: 200;
     margin-bottom: .5rem;
   }
-
   .middle-text {
     display: inline;
   }
-
+  .button.hollow {
+    border: 2px solid $dark-green;
+  }
   .row {
-
     @include breakpoint(large) {
       height: calc(100% - 33px);
     }
   }
-
   h1,
   h2 {
     font-size: 2.125rem;
     font-weight: 400;
     line-height: 2.5rem;
     margin-bottom: 2rem;
-
     @include breakpoint(large) {
       font-size: 2.75rem;
     }
   }
-
   a {
     color: $primary-color;
     text-decoration: underline;
   }
-
   .line {
     font-size: 2rem;
     line-height: 2.2rem;
     margin-bottom: 1rem;
   }
-
   .button {
     background-color: $dark-green;
-    border: 2px solid $primary-color !important;
+    border: 2px solid $primary-color;
     color: $white;
     text-decoration: none;
-
     &:hover {
       background-color: transparent;
       color: $dark-green;
     }
   }
-
   .underline::after {
     background-color: $primary-color;
   }
-
 }
 
 .primary-hp--green {
@@ -78,17 +68,14 @@
     background-color: $dark-green;
     border: 2px solid $white !important;
     color: $white;
-
     &:hover {
       background-color: transparent;
       color: $white;
     }
   }
-
   .underline::after {
     background-color: $white;
   }
-
   .top__heading {
     display: block;
     font-size: 1.875rem;
@@ -96,21 +83,31 @@
     margin-bottom: 1.3rem;
     margin-top: 1rem;
   }
-
   a {
     color: $white;
     text-decoration: underline;
   }
-
   h1,
   h2 {
     font-size: 2.125rem;
     font-weight: 400;
     line-height: 1.2rem;
     margin-bottom: 2rem;
-
     @include breakpoint(large) {
       font-size: 2.75rem;
     }
   }
 }
+
+.home-top {
+  margin-top: 3rem;
+  @include breakpoint(medium) {
+    margin-top: 3rem;
+  }
+}
+
+html,
+body {
+  height: 102.7%;
+}
+

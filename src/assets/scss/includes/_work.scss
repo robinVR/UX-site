@@ -1,0 +1,79 @@
+.site-top {
+  display: block;
+
+    @include breakpoint(large) {
+    margin-top: 43px;
+}
+
+  img {
+    margin-bottom: 1rem;
+
+    @include breakpoint(large) {
+    margin-bottom: 0rem;
+    }
+  }
+}
+
+.site-bottom {
+  display: block;
+  margin-top: 1px;
+}
+
+.main-desc {
+  color: $white;
+}
+
+button.close-button {
+  @extend.trans;
+}
+
+button.close-button {
+  background: $primary-color;
+  color: $white;
+  line-height: 1rem;
+  padding: 0.2rem 0.2rem 0.5rem 0.2rem;
+}
+
+button.close-button:hover {
+  background: $dark-green;
+}
+
+.plus {
+  @include breakpoint(xlarge down) {
+    visibility: hidden;
+  }
+  @extend.trans;
+  background: $purple;
+  border-radius: 100%;
+  color: $white;
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 1.1rem 2rem 1.3rem 2rem;
+  position: relative;
+  right: 50%;
+  top: 20px;
+
+  &:hover {
+    background: $extra-blue;
+    border:2px solid $white;
+  }
+}
+
+.small-plus {
+  font-size: 1rem;
+  left: 50%;
+  padding: 0.55rem 1rem 0.65rem 1rem;
+
+  &:hover {
+    background: $primary-color;
+    border:2px solid $white;
+  }
+}
+
+.label {
+  border: 1px solid $medium-gray;
+}
+
+.skills-app span {
+  margin-bottom: 0.3rem;
+}

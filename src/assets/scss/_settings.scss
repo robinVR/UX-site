@@ -61,6 +61,8 @@ $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
+$purple: #881c61;
+$extra-blue: #0b799a;
 $body-background: $white;
 $body-font-color: #808080;
 $body-font-family: 'europa', sans-serif;
@@ -109,10 +111,10 @@ $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-sizes: (
   small: (
-    'h1': 24,
-    'h2': 20,
-    'h3': 19,
-    'h4': 18,
+    'h1': 28,
+    'h2': 26,
+    'h3': 24,
+    'h4': 24,
     'h5': 17,
     'h6': 16,
   ),
@@ -237,7 +239,7 @@ $breadcrumbs-item-slash: true;
 $button-padding: 0.85em 1em;
 $button-margin: 0 0 $global-margin 0;
 $button-fill: solid;
-$button-background: $primary-color;
+$button-background: $secondary-color;
 $button-background-hover: scale-color($button-background, $lightness: -15%);
 $button-color: $white;
 $button-color-alt: $black;
@@ -276,11 +278,11 @@ $callout-link-tint: 30%;
 
 $closebutton-position: right top;
 $closebutton-offset-horizontal: 1rem;
-$closebutton-offset-vertical: 0.5rem;
+$closebutton-offset-vertical: 1rem;
 $closebutton-size: 2em;
 $closebutton-lineheight: 1;
-$closebutton-color: $dark-gray;
-$closebutton-color-hover: $black;
+$closebutton-color: $white;
+$closebutton-color-hover: $white;
 
 // 15. Drilldown
 // -------------
@@ -361,9 +363,9 @@ $input-radius: $global-radius;
 // 20. Label
 // ---------
 
-$label-background: $primary-color;
+$label-background: #efefef;
 $label-color: foreground($label-background);
-$label-font-size: 1rem;
+$label-font-size: 0.8rem;
 $label-padding: 0.33333rem 0.5rem;
 $label-radius: $global-radius;
 
@@ -451,7 +453,7 @@ $progress-radius: $global-radius;
 // 28. Reveal
 // ----------
 
-$reveal-background: $white;
+$reveal-background: #efefef;
 $reveal-width: 600px;
 $reveal-max-width: $global-width;
 $reveal-padding: $global-padding;
