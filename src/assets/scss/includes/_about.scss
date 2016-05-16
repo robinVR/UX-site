@@ -34,3 +34,9 @@
   }
 }
 
+.who {
+    @include breakpoint(medium) {
+  margin-top: 5rem;
+}
+}
+
