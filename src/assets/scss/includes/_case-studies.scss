@@ -1,8 +1,10 @@
 .case-study {
   padding: 3rem 0 3rem 0;
+  margin-top: 3rem;
 
   @include breakpoint(medium) {
     padding: 8rem 0 8rem 0;
+      // margin-top: 0rem;
   }
 }
 

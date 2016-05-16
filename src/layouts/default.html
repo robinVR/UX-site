@@ -35,14 +35,19 @@
     {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
     {{> navigation}}
     {{> body}}
+
      <script src="{{root}}assets/js/app.js"></script>
-      <!-- <script src="{{root}}assets/js/foundation.reveal.js"></script> -->
-    <!-- <script src="{{root}}assets/js/waypoints.js"></script> -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>
 
 
     {{#ifpage 'index'}}
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>
         <script src="{{root}}assets/custom.js"></script>
       {{/ifpage}}
+<!-- Start hr -->
+{{#unlesspage 'index'}}
+{{>hr}}
+{{/unlesspage}}
+<!-- end hr -->
+{{> footer}}
   </body>
 </html>

@@ -63,6 +63,7 @@
 .primary-hp--green {
   background-color: $primary-color;
   color: $white;
+
   .button {
     background-color: $dark-green;
     border: 2px solid $white !important;
@@ -95,6 +96,13 @@
     @include breakpoint(large) {
       font-size: 2.75rem;
     }
+  }
+}
+
+.home-top {
+  margin-top: 3rem;
+  @include breakpoint(medium) {
+    margin-top: 3rem;
   }
 }
 

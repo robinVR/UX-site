@@ -32,7 +32,7 @@
 // @include foundation-off-canvas;
 // @include foundation-orbit;
 // @include foundation-pagination;
-// @include foundation-progress-bar;
+// @include foundation-progress-bar;s
 // @include foundation-slider;
 @include foundation-sticky;
 @include foundation-reveal;
@@ -63,6 +63,7 @@
 @import 'includes/form';
 @import 'includes/work';
 @import 'includes/case-studies';
+@import 'includes/footer';
 
 
 .menu-icon.white {
@@ -86,9 +87,13 @@
   }
 }
 
-.all-nav {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 999999;
+
+.larger-heading {
+  @include breakpoint(medium) {
+    font-size: 2.72727rem;
+  }
 }
+
+
+
+
