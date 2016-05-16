@@ -37,18 +37,17 @@
     {{> navigation}}
     {{> body}}
 
-     <script src="{{root}}assets/js/app.js"></script>
 
-
-    {{#ifpage 'index'}}
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>
-        <script src="{{root}}assets/custom.js"></script>
-      {{/ifpage}}
 <!-- Start hr -->
 {{#unlesspage 'index'}}
 {{>hr}}
 {{/unlesspage}}
 <!-- end hr -->
 {{> footer}}
+     <script src="{{root}}assets/js/app.js"></script>
+    {{#ifpage 'index'}}
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>
+        <script src="{{root}}assets/custom.js"></script>
+      {{/ifpage}}
   </body>
 </html>
