@@ -1,5 +1,6 @@
 // svg
 .homepage-svgs {
+  width: 100%;
   margin: 0 auto;
   margin-top: 2rem;
   max-width: 261px;
@@ -53,3 +54,8 @@
 }
 
 
+@media screen and (min-width:0\0) {
+.top-svg, .bottom-svg {
+  height: 471px;
+}
+}
