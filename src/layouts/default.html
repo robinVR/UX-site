@@ -1,20 +1,27 @@
-{{!-- This is the base layout for your project, and will be used on every page. --}}
-
 <!doctype html>
 <html class="no-js" lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
-    <title> {{ title }} </title>
-    <link rel="stylesheet" href="{{root}}assets/css/app.css">
-    {{#ifpage 'index'}}
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+  <title> {{ title }} </title>
+  <link rel="stylesheet" href="{{root}}assets/css/app.css">
+  {{#ifpage 'index'}}
     <!--[if IE]>
-      <link rel="stylesheet" type="text/css" href="ie9.css" />
+      <style>
+      .primary-hp {
+        height: auto;
+      }
+      .primary-hp .row {
+        height: auto;
+        padding-top: 100px;
+        padding-bottom: 100px;
+      }
+      </style>
     <![endif]-->
-     {{/ifpage}}
-    <link rel="apple-touch-icon" sizes="57x57" href="{{root}}assets/img/apple-touch-icon-57x57.png">
+  {{/ifpage}}
+  <link rel="apple-touch-icon" sizes="57x57" href="{{root}}assets/img/apple-touch-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="{{root}}assets/img/apple-touch-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="{{root}}assets/img/apple-touch-icon-72x72.png">
   <link rel="apple-touch-icon" sizes="76x76" href="{{root}}assets/img/apple-touch-icon-76x76.png">
@@ -33,26 +40,28 @@
   <meta name="msapplication-TileImage" content="{{root}}assets/img/mstile-144x144.png">
   <meta name="theme-color" content="#ffffff">
   <script src="https://use.typekit.net/bfe0lmg.js"></script>
-  <script>try{Typekit.load({ async: true });}catch(e){}</script>
-
-    </head>
+  <script>
+  try {
+    Typekit.load({
+      async: true
+    });
+  } catch (e) {}
+  </script>
+</head>
   <body>
-
-    {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
-    {{> navigation}}
-    {{> body}}
-
-
-<!-- Start hr -->
-{{#unlesspage 'index'}}
-{{>hr}}
-{{/unlesspage}}
-<!-- end hr -->
-{{> footer}}
-     <script src="{{root}}assets/js/app.js"></script>
+  {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+  {{> navigation}}
+  {{> body}}
+  <!-- Start hr -->
+  {{#unlesspage 'index'}}
+  {{>hr}}
+  {{/unlesspage}}
+  <!-- end hr -->
+  {{> footer}}
+    <script src="{{root}}assets/js/app.js"></script>
     {{#ifpage 'index'}}
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>
-        <script src="{{root}}assets/custom.js"></script>
-      {{/ifpage}}
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>
+      <script src="{{root}}assets/custom.js"></script>
+    {{/ifpage}}
   </body>
 </html>
