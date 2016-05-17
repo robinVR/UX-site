@@ -23,10 +23,10 @@
   }
 }
 
-.all-nav a.active:after {
+.all-nav .menu a.active::after {
 
   @include breakpoint(medium) {
-  color: $white;
   width: 100%;
+  background-color: $primary-color;
   }
 }
