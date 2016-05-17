@@ -15,7 +15,15 @@
     width: 0;
   }
 }
-.underline:hover:after, .all-nav a.active:after{
+.underline:hover:after {
+
+  @include breakpoint(medium) {
+  color: $white;
+  width: 100%;
+  }
+}
+
+.all-nav a.active:after {
 
   @include breakpoint(medium) {
   color: $white;
