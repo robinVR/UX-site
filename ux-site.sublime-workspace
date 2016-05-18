@@ -63,7 +63,7 @@
 			"file": "src/partials/navigation.html",
 			"settings":
 			{
-				"buffer_size": 1777,
+				"buffer_size": 2043,
 				"line_ending": "Unix"
 			}
 		},
@@ -156,6 +156,14 @@
 			}
 		},
 		{
+			"file": "src/pages/404.html",
+			"settings":
+			{
+				"buffer_size": 656,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "src/assets/scss/includes/homepage/_homepage.scss",
 			"settings":
 			{
@@ -191,7 +199,7 @@
 			"file": "src/assets/scss/includes/homepage/_svgs.scss",
 			"settings":
 			{
-				"buffer_size": 828,
+				"buffer_size": 973,
 				"line_ending": "Unix"
 			}
 		},
@@ -209,15 +217,6 @@
 			{
 				"buffer_size": 3214,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/assets/ie9.css",
-			"settings":
-			{
-				"buffer_size": 118,
-				"line_ending": "Unix",
-				"name": ".ie {"
 			}
 		},
 		{
@@ -288,7 +287,7 @@
 			"file": "src/assets/scss/includes/_about.scss",
 			"settings":
 			{
-				"buffer_size": 574,
+				"buffer_size": 570,
 				"line_ending": "Unix"
 			}
 		},
@@ -305,6 +304,14 @@
 			"settings":
 			{
 				"buffer_size": 1031,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/assets/scss/includes/_custom-buttons.scss",
+			"settings":
+			{
+				"buffer_size": 489,
 				"line_ending": "Unix"
 			}
 		},
@@ -332,10 +339,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 131.0,
-		"last_filter": "install",
+		"height": 267.0,
+		"last_filter": " insta",
 		"selected_items":
 		[
+			[
+				" insta",
+				"Package Control: Install Package"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -373,12 +384,17 @@
 		"/Users/robin/Desktop/UX-site",
 		"/Users/robin/Desktop/UX-site/src",
 		"/Users/robin/Desktop/UX-site/src/assets",
+		"/Users/robin/Desktop/UX-site/src/assets/scss",
+		"/Users/robin/Desktop/UX-site/src/assets/scss/includes",
+		"/Users/robin/Desktop/UX-site/src/assets/scss/includes/homepage",
 		"/Users/robin/Desktop/UX-site/src/layouts",
 		"/Users/robin/Desktop/UX-site/src/pages",
 		"/Users/robin/Desktop/UX-site/src/partials"
 	],
 	"file_history":
 	[
+		"/Users/robin/Desktop/UX-site/src/assets/ie9.css",
+		"/Users/robin/Desktop/UX-site/readme.md",
 		"/Users/robin/Desktop/case.html",
 		"/Users/robin/Desktop/UX-site/src/partials/sites-top.html",
 		"/Users/robin/Desktop/UX-site/src/pages/skills.html",
@@ -435,8 +451,7 @@
 		"/Users/robin/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/robin/Desktop/UX-site/src/partials/hr.html",
 		"/Users/robin/Desktop/UX-site/src/partials/hr-line.html",
-		"/Users/robin/Desktop/leaf.svg",
-		"/Users/robin/Desktop/UX-site/readme.md"
+		"/Users/robin/Desktop/leaf.svg"
 	],
 	"find":
 	{
@@ -492,7 +507,7 @@
 	"groups":
 	[
 		{
-			"selected": 33,
+			"selected": 13,
 			"sheets":
 			[
 				{
@@ -521,7 +536,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 30,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
@@ -530,15 +545,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1777,
+						"buffer_size": 2043,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								460,
-								460
+								219,
+								219
 							]
 						],
 						"settings":
@@ -550,7 +565,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 17,
 					"type": "text"
 				},
 				{
@@ -576,10 +591,10 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 298.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 21,
 					"type": "text"
 				},
 				{
@@ -608,7 +623,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 25,
 					"type": "text"
 				},
 				{
@@ -637,7 +652,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 24,
 					"type": "text"
 				},
 				{
@@ -666,7 +681,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 20,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -695,7 +710,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 27,
 					"type": "text"
 				},
 				{
@@ -724,7 +739,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 30,
 					"type": "text"
 				},
 				{
@@ -753,7 +768,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 26,
 					"type": "text"
 				},
 				{
@@ -782,7 +797,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 31,
 					"type": "text"
 				},
 				{
@@ -811,7 +826,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 28,
 					"type": "text"
 				},
 				{
@@ -827,8 +842,8 @@
 						"selection":
 						[
 							[
-								3175,
-								3199
+								2199,
+								2199
 							]
 						],
 						"settings":
@@ -837,10 +852,10 @@
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1179.0,
+						"translation.y": 1242.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 16,
 					"type": "text"
 				},
 				{
@@ -856,8 +871,8 @@
 						"selection":
 						[
 							[
-								1226,
-								1226
+								4366,
+								4450
 							]
 						],
 						"settings":
@@ -866,14 +881,42 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1628.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 21,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 13,
+					"file": "src/pages/404.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 656,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								181,
+								183
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
 					"file": "src/assets/scss/includes/homepage/_homepage.scss",
 					"semi_transient": false,
 					"settings":
@@ -898,11 +941,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 24,
+					"stack_index": 34,
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 15,
 					"file": "src/pages/contact.html",
 					"semi_transient": false,
 					"settings":
@@ -927,11 +970,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 19,
+					"stack_index": 33,
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 16,
 					"file": "src/assets/scss/includes/_form.scss",
 					"semi_transient": false,
 					"settings":
@@ -956,11 +999,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 26,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 17,
 					"file": "src/pages/form-recieved.html",
 					"semi_transient": false,
 					"settings":
@@ -985,24 +1028,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 18,
+					"stack_index": 32,
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 18,
 					"file": "src/assets/scss/includes/homepage/_svgs.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 828,
+						"buffer_size": 973,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								656,
-								572
+								798,
+								798
 							]
 						],
 						"settings":
@@ -1011,14 +1054,14 @@
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 472.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 25,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 19,
 					"file": "src/partials/svg-middle.html",
 					"semi_transient": false,
 					"settings":
@@ -1043,11 +1086,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 20,
 					"file": "src/pages/index.html",
 					"semi_transient": false,
 					"settings":
@@ -1072,36 +1115,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 20,
-					"file": "src/assets/ie9.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 118,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								118,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_name": ".ie {",
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 23,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -1130,7 +1144,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 28,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -1159,7 +1173,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 17,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -1188,7 +1202,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 19,
 					"type": "text"
 				},
 				{
@@ -1217,7 +1231,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
+					"stack_index": 20,
 					"type": "text"
 				},
 				{
@@ -1246,7 +1260,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 32,
+					"stack_index": 18,
 					"type": "text"
 				},
 				{
@@ -1262,8 +1276,8 @@
 						"selection":
 						[
 							[
-								2125,
-								2111
+								1932,
+								1800
 							]
 						],
 						"settings":
@@ -1272,10 +1286,10 @@
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 557.0,
+						"translation.y": 965.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 31,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -1291,8 +1305,8 @@
 						"selection":
 						[
 							[
-								2949,
-								2949
+								375,
+								375
 							]
 						],
 						"settings":
@@ -1301,10 +1315,10 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1.0,
+						"translation.y": 417.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 22,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
@@ -1333,7 +1347,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 29,
 					"type": "text"
 				},
 				{
@@ -1342,15 +1356,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 574,
+						"buffer_size": 570,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								568,
-								568
+								502,
+								502
 							]
 						],
 						"settings":
@@ -1362,7 +1376,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 27,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
@@ -1391,7 +1405,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 29,
+					"stack_index": 15,
 					"type": "text"
 				},
 				{
@@ -1417,14 +1431,43 @@
 							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 795.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 33,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
 					"buffer": 32,
+					"file": "src/assets/scss/includes/_custom-buttons.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 489,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								481,
+								481
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 33,
 					"file": "src/pages/work.html",
 					"semi_transient": false,
 					"settings":
@@ -1449,11 +1492,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 23,
 					"type": "text"
 				},
 				{
-					"buffer": 33,
+					"buffer": 34,
 					"file": "src/partials/sites-top.html",
 					"semi_transient": false,
 					"settings":
@@ -1475,10 +1518,10 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 217.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 22,
 					"type": "text"
 				}
 			]
