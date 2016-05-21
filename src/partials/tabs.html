@@ -3,51 +3,33 @@
     <ul class="tabs" id="example-vert-tabs" data-tabs>
       <li class="tabs-title is-active"><a href="#panel1v" aria-selected="true">Project Planning</a></li>
       <li class="tabs-title"><a href="#panel2v">Research</a></li>
-      <li class="tabs-title"><a href="#panel3v">User & Content analytics</a></li>
+      <li class="tabs-title"><a href="#panel3v">User / Content Planning</a></li>
       <li class="tabs-title"><a href="#panel4v">Exploration</a></li>
       <li class="tabs-title"><a href="#panel5v">User testing</a></li>
       <li class="tabs-title"><a href="#panel6v">Design / Development</a></li>
       <li class="tabs-title"><a href="#panel7v">Feedback</a></li>
     </ul>
-    </div>
-    <div class="medium-12 end columns">
+  </div>
+  <div class="medium-12 end columns">
     <div class="tabs-content horizontal" data-tabs-content="example-vert-tabs">
-    <!-- Research tab start -->
-      <div class="tabs-panel is-active" id="panel1v">
-      <div class="row large-centred ">
-        <div class="large-4 columns">
-          <div class="text-center">
-            <h3 class="highlight">Project Planning</h3>
-            <ul>
-              <li>Business & stakeholder requirements</li>
-              <li>User goals</li>
-              <li>User stories</li>
-            </ul>
-          </div>
-        </div>
-        <div class="large-8 columns">
-          <img class="" width="250" alt="logos" src="/assets/img/research.svg">
-        </div>
-      </div>
-      <!-- Research tab end -->
-      <div class="tabs-panel" id="panel2v">
-        <p>Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus.</p>
-      </div>
-      <div class="tabs-panel" id="panel3v">
-        <img class="thumbnail" src="assets/img/generic/rectangle-3.jpg">
-      </div>
-      <div class="tabs-panel" id="panel4v">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
-      <div class="tabs-panel" id="panel5v">
-        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </div>
-      <div class="tabs-panel" id="panel6v">
-        <img class="thumbnail" src="assets/img/generic/rectangle-5.jpg">
-      </div>
+      <!-- Planning tab -->
+      {{>planning-tab}}
+      <!-- Research tab -->
+      {{>research-tab}}
+      <!-- User tab  -->
+      {{>user-tab}}
+      <!-- User tab  -->
+      {{>exploration-tab}}
+      <!-- User tab  -->
+      {{>user-testing-tab}}
+      <!-- Design tab -->
+      {{>design-tab}}
+      <!-- Feedback tab -->
+      {{>feedback-tab}}
     </div>
   </div>
 </div>
+
 <div class="row">
   <div class="small-12 large-2 spacing-3 text-center columns">
 
