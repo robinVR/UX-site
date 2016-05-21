@@ -1,63 +1,57 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="842px" height="418px" viewBox="0 0 842 418" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="871px" height="440px" viewBox="0 0 871 440" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 3.8 (29681) - http://www.bohemiancoding.com/sketch -->
-    <title>my-process</title>
+    <title>Artboard 1</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="my-process" transform="translate(0.000000, -5.000000)">
-            <g id="Group" transform="translate(421.000000, 195.500000) rotate(-90.000000) translate(-421.000000, -195.500000) translate(225.500000, -225.500000)">
-                <polygon id="Polygon-1" fill="" points="195.5 0 280.803502 49.25 280.803502 147.75 195.5 197 110.196498 147.75 110.196498 49.25"></polygon>
-                <polygon id="Polygon-1" fill="" points="195.5 326 280.803502 375.25 280.803502 473.75 195.5 523 110.196498 473.75 110.196498 375.25"></polygon>
-                <polygon id="Polygon-1" fill="" points="99.5 485 184.803502 534.25 184.803502 632.75 99.5 682 14.1964977 632.75 14.1964977 534.25"></polygon>
-                <polygon id="Polygon-1" fill="" points="195.303502 645 280.607005 694.25 280.607005 792.75 195.303502 842 110 792.75 110 694.25"></polygon>
-                <polygon id="Polygon-1" fill="" points="292.5 485 377.803502 534.25 377.803502 632.75 292.5 682 207.196498 632.75 207.196498 534.25"></polygon>
-                <polygon id="Polygon-1" fill="" points="98.5 165 183.803502 214.25 183.803502 312.75 98.5 362 13.1964977 312.75 13.1964977 214.25"></polygon>
-                <polygon id="Polygon-1" fill="" points="292.5 165 377.803502 214.25 377.803502 312.75 292.5 362 207.196498 312.75 207.196498 214.25"></polygon>
-                <text id="Planning" transform="translate(196.000000, 98.000000) rotate(-270.000000) translate(-196.000000, -98.000000) " font-family="Futura-Medium, Futura" font-size="20" font-weight="400" fill="#FFFFFF">
-                    <tspan x="157.186523" y="106">Planning</tspan>
-                </text>
-                <text id="User-&amp;-content-" transform="translate(98.500000, 264.000000) rotate(-270.000000) translate(-98.500000, -264.000000) " font-family="Futura-Medium, Futura" font-size="20" font-weight="400" fill="#FFFFFF">
-                    <tspan x="31.46875" y="259">User &amp; content </tspan>
-                    <tspan x="58.9638672" y="285">analytics</tspan>
-                </text>
-                <text id="Research" transform="translate(292.500000, 263.000000) rotate(-270.000000) translate(-292.500000, -263.000000) " font-family="Futura-Medium, Futura" font-size="20" font-weight="400" fill="#FFFFFF">
-                    <tspan x="251.362305" y="271">Research</tspan>
-                </text>
-                <text id="Exploration" transform="translate(195.500000, 425.000000) rotate(-270.000000) translate(-195.500000, -425.000000) " font-family="Futura-Medium, Futura" font-size="20" font-weight="400" fill="#FFFFFF">
-                    <tspan x="143.380859" y="433">Exploration</tspan>
-                </text>
-                <text id="User-Testing" transform="translate(100.000000, 584.000000) rotate(-270.000000) translate(-100.000000, -584.000000) " font-family="Futura-Medium, Futura" font-size="20" font-weight="400" fill="#FFFFFF">
-                    <tspan x="45.4980469" y="592">User Testing</tspan>
-                </text>
-                <text id="Design" transform="translate(292.500000, 584.000000) rotate(-270.000000) translate(-292.500000, -584.000000) " font-family="Futura-Medium, Futura" font-size="20" font-weight="400" fill="#FFFFFF">
-                    <tspan x="261.689453" y="566">Design</tspan>
-                    <tspan x="285.19043" y="592">&amp;</tspan>
-                    <tspan x="233.334961" y="618">Development</tspan>
-                </text>
-                <text id="Feedback" transform="translate(195.500000, 744.000000) rotate(-270.000000) translate(-195.500000, -744.000000) " font-family="Futura-Medium, Futura" font-size="20" font-weight="400" fill="#FFFFFF">
-                    <tspan x="151.427734" y="752">Feedback</tspan>
-                </text>
-            </g>
-            <g id="Group-2" transform="translate(404.000000, 286.000000)">
-                <path d="M6.5,6.5 L23.5,67.5" id="Line" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
-                <path d="M23.5,68 L96.6710358,68" id="Line" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
-                <polygon id="Triangle-1" fill="#000000" points="90 73 90 62 101 67.5"></polygon>
-                <polygon id="Triangle-1" fill="#000000" transform="translate(6.736097, 6.736097) rotate(-105.000000) translate(-6.736097, -6.736097) " points="1.23609679 12.2360968 1.23609679 1.23609679 12.2360968 6.73609679"></polygon>
-            </g>
-            <g id="Group-2" transform="translate(711.207031, 57.433594) rotate(-180.000000) translate(-711.207031, -57.433594) translate(660.707031, 20.933594)">
-                <path d="M6.5,6.5 L23.5,67.5" id="Line" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
-                <path d="M23.5,68 L96.6710358,68" id="Line" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
-                <polygon id="Triangle-1" fill="#000000" points="90 73 90 62 101 67.5"></polygon>
-                <polygon id="Triangle-1" fill="#000000" transform="translate(6.736097, 6.736097) rotate(-105.000000) translate(-6.736097, -6.736097) " points="1.23609679 12.2360968 1.23609679 1.23609679 12.2360968 6.73609679"></polygon>
-            </g>
+        <g id="Artboard-1">
+            <polygon id="Polygon-1" fill="" transform="translate(112.500000, 204.500000) rotate(-90.000000) translate(-112.500000, -204.500000) " points="112.5 106 197.803502 155.25 197.803502 253.75 112.5 303 27.1964977 253.75 27.1964977 155.25"></polygon>
+            <polygon id="Polygon-1" fill="" transform="translate(438.500000, 204.500000) rotate(-90.000000) translate(-438.500000, -204.500000) " points="438.5 106 523.803502 155.25 523.803502 253.75 438.5 303 353.196498 253.75 353.196498 155.25"></polygon>
+            <polygon id="Polygon-1" fill="" transform="translate(597.500000, 300.500000) rotate(-90.000000) translate(-597.500000, -300.500000) " points="597.5 202 682.803502 251.25 682.803502 349.75 597.5 399 512.196498 349.75 512.196498 251.25"></polygon>
+            <polygon id="Polygon-1" fill="" transform="translate(757.500000, 204.696498) rotate(-90.000000) translate(-757.500000, -204.696498) " points="757.5 106.196498 842.803502 155.446498 842.803502 253.946498 757.5 303.196498 672.196498 253.946498 672.196498 155.446498"></polygon>
+            <polygon id="Polygon-1" fill="" transform="translate(597.500000, 107.500000) rotate(-90.000000) translate(-597.500000, -107.500000) " points="597.5 9 682.803502 58.25 682.803502 156.75 597.5 206 512.196498 156.75 512.196498 58.25"></polygon>
+            <polygon id="Polygon-1" fill="" transform="translate(277.500000, 301.500000) rotate(-90.000000) translate(-277.500000, -301.500000) " points="277.5 203 362.803502 252.25 362.803502 350.75 277.5 400 192.196498 350.75 192.196498 252.25"></polygon>
+            <polygon id="Polygon-1" fill="" transform="translate(277.500000, 107.500000) rotate(-90.000000) translate(-277.500000, -107.500000) " points="277.5 9 362.803502 58.25 362.803502 156.75 277.5 206 192.196498 156.75 192.196498 58.25"></polygon>
+            <text id="Planning" transform="translate(112.000000, 204.000000) rotate(-360.000000) translate(-112.000000, -204.000000) " font-family="Futura-Medium, Futura" font-size="20" font-weight="400" fill="#FFFFFF">
+                <tspan x="73.1865234" y="212">Planning</tspan>
+            </text>
+            <text id="User-&amp;-content-" transform="translate(278.000000, 301.500000) rotate(-360.000000) translate(-278.000000, -301.500000) " font-family="Futura-Medium, Futura" font-size="20" font-weight="400" fill="#FFFFFF">
+                <tspan x="210.96875" y="296.5">User &amp; content </tspan>
+                <tspan x="238.463867" y="322.5">analytics</tspan>
+            </text>
+            <text id="Research" transform="translate(277.000000, 107.500000) rotate(-360.000000) translate(-277.000000, -107.500000) " font-family="Futura-Medium, Futura" font-size="20" font-weight="400" fill="#FFFFFF">
+                <tspan x="235.862305" y="115.5">Research</tspan>
+            </text>
+            <text id="Exploration" transform="translate(439.000000, 204.500000) rotate(-360.000000) translate(-439.000000, -204.500000) " font-family="Futura-Medium, Futura" font-size="20" font-weight="400" fill="#FFFFFF">
+                <tspan x="386.880859" y="212.5">Exploration</tspan>
+            </text>
+            <text id="User-Testing" transform="translate(598.000000, 300.000000) rotate(-360.000000) translate(-598.000000, -300.000000) " font-family="Futura-Medium, Futura" font-size="20" font-weight="400" fill="#FFFFFF">
+                <tspan x="543.498047" y="308">User Testing</tspan>
+            </text>
+            <text id="Design" transform="translate(598.000000, 107.500000) rotate(-360.000000) translate(-598.000000, -107.500000) " font-family="Futura-Medium, Futura" font-size="20" font-weight="400" fill="#FFFFFF">
+                <tspan x="567.189453" y="89.5">Design</tspan>
+                <tspan x="590.69043" y="115.5">&amp;</tspan>
+                <tspan x="538.834961" y="141.5">Development</tspan>
+            </text>
+            <text id="Feedback" transform="translate(758.000000, 204.500000) rotate(-360.000000) translate(-758.000000, -204.500000) " font-family="Futura-Medium, Futura" font-size="20" font-weight="400" fill="#FFFFFF">
+                <tspan x="713.927734" y="212.5">Feedback</tspan>
+            </text>
+            <path d="M424.5,301.5 L441.5,362.5" id="Line" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M441.5,363 L514.671036,363" id="Line" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
+            <polygon id="Triangle-1" fill="#000000" points="508 368 508 357 519 362.5"></polygon>
+            <polygon id="Triangle-1" fill="#000000" transform="translate(424.736097, 301.736097) rotate(-105.000000) translate(-424.736097, -301.736097) " points="419.236097 307.236097 419.236097 296.236097 430.236097 301.736097"></polygon>
+            <path d="M752.207031,35.4335937 L769.207031,96.4335937" id="Line" stroke="#000000" stroke-width="2" stroke-linecap="square" transform="translate(760.707031, 65.933594) rotate(-180.000000) translate(-760.707031, -65.933594) "></path>
+            <path d="M679.207031,34.9335937 L752.378067,34.9335937" id="Line" stroke="#000000" stroke-width="2" stroke-linecap="square" transform="translate(715.707031, 34.933594) rotate(-180.000000) translate(-715.707031, -34.933594) "></path>
+            <polygon id="Triangle-1" fill="#000000" transform="translate(680.207031, 35.433594) rotate(-180.000000) translate(-680.207031, -35.433594) " points="674.707031 40.9335938 674.707031 29.9335938 685.707031 35.4335938"></polygon>
+            <polygon id="Triangle-1" fill="#000000" transform="translate(768.970934, 96.197497) rotate(-285.000000) translate(-768.970934, -96.197497) " points="763.470934 101.697497 763.470934 90.697497 774.470934 96.197497"></polygon>
             <text id="Loop-&amp;-" font-family="Futura-Medium, Futura" font-size="20" font-weight="400" fill="#3C3C3C">
-                <tspan x="396.15332" y="396">Loop &amp; </tspan>
-                <tspan x="390.928711" y="422">reiterate</tspan>
+                <tspan x="410.15332" y="405">Loop &amp; </tspan>
+                <tspan x="404.928711" y="431">reiterate</tspan>
             </text>
             <text id="Loop-&amp;-" font-family="Futura-Medium, Futura" font-size="20" font-weight="400" fill="#3C3C3C">
-                <tspan x="767.65332" y="21">Loop &amp; </tspan>
-                <tspan x="762.428711" y="47">reiterate</tspan>
+                <tspan x="781.65332" y="30">Loop &amp; </tspan>
+                <tspan x="776.428711" y="56">reiterate</tspan>
             </text>
         </g>
     </g>
