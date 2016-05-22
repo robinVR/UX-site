@@ -38,6 +38,8 @@ button.close-button:hover {
   background: $dark-green;
 }
 
+// Plus symbols
+
 .plus {
   @include breakpoint(xlarge down) {
     visibility: hidden;
@@ -58,6 +60,8 @@ button.close-button:hover {
     border:2px solid $white;
   }
 }
+
+// Small plus symbol
 
 .small-plus {
   font-size: 1rem;
