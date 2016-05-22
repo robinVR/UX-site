@@ -1,0 +1,36 @@
+<div class="row">
+  <div class="small-12 text-center pushing-4 columns">
+    <img src="assets/img/my-process.png" alt="My UX Design process">
+  </div>
+</div>
+<div class="row collapse">
+  <div class="medium-12 spacing-2 columns">
+    <ul class="tabs" id="process-tabs" data-tabs>
+      <li class="tabs-title is-active"><a href="#panel1v" aria-selected="true">Project Planning</a></li>
+      <li class="tabs-title"><a href="#panel2v">Research</a></li>
+      <li class="tabs-title"><a href="#panel3v">User / Content Planning</a></li>
+      <li class="tabs-title"><a href="#panel4v">Exploration</a></li>
+      <li class="tabs-title"><a href="#panel5v">User testing</a></li>
+      <li class="tabs-title"><a href="#panel6v">Design / Development</a></li>
+      <li class="tabs-title"><a href="#panel7v">Feedback</a></li>
+    </ul>
+  </div>
+  <div class="medium-12 end columns">
+    <div class="tabs-content horizontal" data-tabs-content="process-tabs">
+      <!-- Planning tab -->
+      {{>planning-tab}}
+      <!-- Research tab -->
+      {{>research-tab}}
+      <!-- User tab  -->
+      {{>user-tab}}
+      <!-- User tab  -->
+      {{>exploration-tab}}
+      <!-- User tab  -->
+      {{>user-testing-tab}}
+      <!-- Design tab -->
+      {{>design-tab}}
+      <!-- Feedback tab -->
+      {{>feedback-tab}}
+    </div>
+  </div>
+</div>
