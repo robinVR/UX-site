@@ -39,36 +39,3 @@
   margin-top: 5rem;
   }
 }
-
-.ski.is-active {
-  border-right: 1px solid $light-gray;
-
-    &:hover {
-    // background-color: $dark-green;
-     top:0px;
-    // color: black;
-  }
-}
-
-.pro a, .ski a {
-  // border:1px solid red;
-  background-color: $primary-color;
-  color: white;
-  position: relative;
-
-
-  &:hover {
-    background-color:  $dark-green;
-    // color: black;
-  }
-
- }
-
-#skills-tabs .is-active a {
-  // border: 1px solid red;
-  background-color: $white;
-  color:grey;
-  // border-bottom: 1px solid white;
-    top:1px;
-}
-

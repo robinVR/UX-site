@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="256px" height="127px" viewBox="0 0 256 127" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.1 (29687) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="120" y="77" width="9" height="49"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="9" height="49" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect id="path-3" x="149" y="77" width="9" height="49"></rect>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="9" height="49" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <rect id="path-5" x="105" y="93" width="9" height="32"></rect>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="9" height="32" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <rect id="path-7" x="166" y="90" width="9" height="35"></rect>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="9" height="35" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <rect id="path-9" x="183" y="101" width="9" height="26"></rect>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="9" height="26" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <rect id="path-11" x="134" y="56" width="9" height="69"></rect>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="9" height="69" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(1.000000, 0.000000)">
+            <rect id="Rectangle-15" fill="#E6E6E6" x="146" y="0" width="49" height="49"></rect>
+            <g id="Group-3" transform="translate(153.000000, 9.000000)" fill="#12A9A6">
+                <ellipse id="Oval-1" cx="15.9809986" cy="8.71459695" rx="8.81424353" ry="8.71459695"></ellipse>
+                <path d="M0.305876444,30.5439721 C0.305876444,30.5439721 0.0987770481,13.6846405 15.5581339,13.6846405 C31.0174907,13.6846405 30.5543403,30.5439721 30.5543403,30.5439721 L0.305876444,30.5439721 Z" id="Path-6"></path>
+            </g>
+            <use id="Rectangle-10" stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="2" fill="#12A9A6" xlink:href="#path-1"></use>
+            <use id="Rectangle-10" stroke="#FFFFFF" mask="url(#mask-4)" stroke-width="2" fill="#12A9A6" xlink:href="#path-3"></use>
+            <use id="Rectangle-10" stroke="#FFFFFF" mask="url(#mask-6)" stroke-width="2" fill="#12A9A6" xlink:href="#path-5"></use>
+            <use id="Rectangle-10" stroke="#FFFFFF" mask="url(#mask-8)" stroke-width="2" fill="#12A9A6" xlink:href="#path-7"></use>
+            <use id="Rectangle-10" stroke="#FFFFFF" mask="url(#mask-10)" stroke-width="2" fill="#12A9A6" xlink:href="#path-9"></use>
+            <use id="Rectangle-10" stroke="#FFFFFF" mask="url(#mask-12)" stroke-width="2" fill="#12A9A6" xlink:href="#path-11"></use>
+            <path d="M220.084864,46.6363974 C222.854007,45.5791198 225.859373,45 229,45 C242.807119,45 254,56.1928813 254,70 C254,83.8071187 242.807119,95 229,95 C215.192881,95 204,83.8071187 204,70 C204,66.8094322 204.597684,63.7584609 205.687197,60.9529418 C205.782289,60.8334907 205.851852,60.7407407 205.851852,60.7407407 L229.925926,72.7777778 L219.740741,46.8518519 C219.740741,46.8518519 219.892043,46.7612455 220.084864,46.6363974 Z" id="Combined-Shape" stroke="#FFFFFF" fill="#12A9A6"></path>
+            <polyline id="Path-195" stroke="#12A9A6" points="4 98.0294116 13.5522388 107.156862 28.3582089 86.980392 39.8208954 99.4705879 52.2388058 78.8137254 76.1194026 111 100 62"></polyline>
+            <ellipse id="Oval-5" stroke="#979797" fill="#FFFFFF" cx="4" cy="97" rx="4" ry="4"></ellipse>
+            <ellipse id="Oval-5-Copy-3" stroke="#979797" fill="#FFFFFF" cx="77" cy="110" rx="4" ry="4"></ellipse>
+            <ellipse id="Oval-5-Copy-4" stroke="#979797" fill="#FFFFFF" cx="101" cy="62" rx="4" ry="4"></ellipse>
+            <ellipse id="Oval-5-Copy-2" stroke="#979797" fill="#FFFFFF" cx="52" cy="78" rx="4" ry="4"></ellipse>
+            <ellipse id="Oval-5-Copy" stroke="#979797" fill="#FFFFFF" cx="29" cy="87" rx="4" ry="4"></ellipse>
+        </g>
+    </g>
+</svg>
