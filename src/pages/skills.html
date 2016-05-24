@@ -3,6 +3,7 @@ title: Design skills - Robin Van Rijn
 description: My Design skills.
 ---
 <!-- Header -->
+<div class="row">
   <div class="small-12 large-9 large-centered end spacing-5 text-center columns">
     <h1 class="highlight">My Process and Skills</h1>
     <h4>Different UX Problems require different UX processes.</h4>
@@ -24,9 +25,14 @@ description: My Design skills.
     <div class="tabs-content skills-tabs horizontal" data-tabs-content="skills-tabs">
       <!-- Process tab -->
       <div class="tabs-panel is-active" id="panela">
-        <div class="row spacing-2 pushing-2">
+        <div class="row spacing-2 pushing-2 show-for-medium">
           <div class="small-12 end large-centered columns">
             {{>process-part}}
+          </div>
+        </div>
+         <div class="row spacing-2 pushing-2 hide-for-medium">
+          <div class="small-12 end large-centered columns">
+            {{>process-part-small}}
           </div>
         </div>
       </div>
@@ -39,5 +45,9 @@ description: My Design skills.
         </div>
       </div>
     </div>
+
   </div>
 </div>
+
+<!-- Tabs -->
+
