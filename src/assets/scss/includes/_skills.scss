@@ -1,0 +1,52 @@
+#process-tabs {
+  display: flex;
+  flex-direction: row;
+  li:last-child {
+    border-right: 0;
+  }
+  li {
+    flex-grow: 1;
+    border-right: 1px solid $white;
+    a {
+      background-color: $primary-color;
+      color: white;
+      position: relative;
+      text-align: center;
+      &:hover {
+        background-color: $dark-green;
+      }
+    }
+  }
+}
+
+.ski.is-active {
+  border-right: 1px solid $light-gray;
+  &:hover {
+    top: 0px;
+    cursor: default;
+  }
+}
+
+.pro a,
+.ski a {
+  background-color: $primary-color;
+  color: white;
+  position: relative;
+  &:hover {
+    background-color: $dark-green;
+  }
+}
+
+#skills-tabs .is-active a,
+#process-tabs .is-active a {
+  background-color: $white;
+  color: grey;
+  top: 1px;
+
+  &:hover{
+    cursor: default;
+    background-color: $white;
+  }
+
+}
+
