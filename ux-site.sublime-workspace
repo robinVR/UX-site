@@ -59,6 +59,54 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/partials/sites-top.html",
+			"settings":
+			{
+				"buffer_size": 3917,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/partials/maxi.html",
+			"settings":
+			{
+				"buffer_size": 2650,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/partials/ui-bottom.html",
+			"settings":
+			{
+				"buffer_size": 3334,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/pages/work.html",
+			"settings":
+			{
+				"buffer_size": 919,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/partials/navigation.html",
+			"settings":
+			{
+				"buffer_size": 2043,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/assets/scss/app.scss",
+			"settings":
+			{
+				"buffer_size": 2171,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -111,7 +159,10 @@
 	[
 		"/Users/robin/Desktop/UX-site",
 		"/Users/robin/Desktop/UX-site/src",
-		"/Users/robin/Desktop/UX-site/src/assets/js",
+		"/Users/robin/Desktop/UX-site/src/assets",
+		"/Users/robin/Desktop/UX-site/src/assets/scss",
+		"/Users/robin/Desktop/UX-site/src/data",
+		"/Users/robin/Desktop/UX-site/src/layouts",
 		"/Users/robin/Desktop/UX-site/src/pages",
 		"/Users/robin/Desktop/UX-site/src/partials"
 	],
@@ -216,6 +267,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"div",
 			"5",
 			"user",
 			"large-3",
@@ -259,8 +311,182 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/partials/sites-top.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3917,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2649,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/partials/maxi.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2650,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2650,
+								2650
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/partials/ui-bottom.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3334,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								48,
+								48
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/pages/work.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 919,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								620,
+								620
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/partials/navigation.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2043,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/assets/scss/app.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2171,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 5.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
 			]
 		}
 	],

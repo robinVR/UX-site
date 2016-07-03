@@ -45,10 +45,17 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/robin/Desktop/UX-site"
+		"/Users/robin/Desktop/UX-site",
+		"/Users/robin/Desktop/UX-site/src",
+		"/Users/robin/Desktop/UX-site/src/data",
+		"/Users/robin/Desktop/UX-site/src/layouts",
+		"/Users/robin/Desktop/UX-site/src/pages",
+		"/Users/robin/Desktop/UX-site/src/partials"
 	],
 	"file_history":
 	[
+		"/Users/robin/Desktop/UX-site/src/layouts/default.html",
+		"/Users/robin/Desktop/UX-site/gulpfile.babel.js",
 		"/Users/robin/Desktop/UX-site/readme.md",
 		"/Users/robin/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
 	],
@@ -167,7 +174,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 348.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
