@@ -7,6 +7,63 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/pages/work.html",
+			"settings":
+			{
+				"buffer_size": 921,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nPackage Control\n---------------\n\n  Version 3.2 Release Notes\n  \n  This version of Package Control focuses on bug-fixes, with notable changes\n  including:\n  \n   - OS X TLS trust roots are exported using APIs to prevent the error message\n     displayed to some El Capitan users\n  \n   - Theme, syntax and color scheme upgrades have been improved and should result\n     in fewer popup messages when filenames change\n  \n   - Various bugs related to installing dependencies have been resolved\n  \n   - Windows and OS X trust roots are exported in a way that valid/invalid purpose\n     information is now communicated to the OpenSSL-based Python ssl module\n  \n   - Further improvements have been made to handling of git/hg package upgrades\n  \n   - The Windows WinINet downloader has improved compatibility with Windows 10\n\n\nGitGutter\n---------\n\n  \n  * Diff Popup\n    - You can now get a popup to see what the code was before it was changed\n    - You can do so via a command pallete, keyboard shortcut, and after\n      Sublime Text 3116 is released it will auto show when hovering the gutter.\n      (you can turn that off.) See the READ ME for more info.\n  \n  * Protected Regions\n    - Better support for protected regions and auto set bookmarks as protected.\n  \n  * Bugfix\n    - Fix a bug that was incorrectly warning ST2 users that it could not find git\n  \n  \n  💛 Git Gutter? Want to support development?\n  \n  I've teamed up with Wes Bos to offer the following discounts:\n  \n  +------------------------------------------------+\n  |                                                |\n  |   Use the coupon code GITGUTTER for $10 off    |\n  |                                                |\n  +------------------------------------------------+\n  \n  🏅 ⭐ ES6 ⭐\n  \n  👉 ES6.io/friend/GITGUTTER\n  \n  🏅 ⭐ Sublime Text Book ⭐\n  \n  👉 SublimeTextBook.com/friend/GITGUTTER\n  \n  🏅 ⭐ React For Beginners ⭐\n  \n  👉 ReactForBeginners.com/friend/GITGUTTER\n  \n  \n  Join 15,000 other developers already learning with Wes Bos.\n  \n  These are fantastic resources - 100% money back guarantee! 🌟\n\n  * Fix error dialog for missing git binary from reopening\n    in an endless loop. Should only show once per session now.\n  \n  * Fix an bug that was introduced that broke GitGutter in ST2\n\n  * Better cleanup of temfiles\n  \n  * Make Sublime Linter regions protected by default\n  \n  * Enhance git_binary setting\n  \n    - Allow git_binary to be customized on a per-platform basis.\n    \n    - Add support for environment variables in git_binary setting\n",
+			"settings":
+			{
+				"buffer_size": 2564,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n\n<head>\n    <title>I love owls</title>\n\n\n</head>\n\n\n<body>\n    <div class=\"this\">\n        <h1>Code bar 101 - HTML</h1>\n        <p>testing test robin van rijn</p>\n        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, <span>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n        </p>\n        <hr>\n    </div>\n</body>\n\n</html>\n",
+			"file": "/Users/robin/Desktop/index.html",
+			"file_size": 838,
+			"file_write_time": 131322698010000000,
+			"settings":
+			{
+				"buffer_size": 702,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/assets/scss/includes/_fonts.scss",
+			"settings":
+			{
+				"buffer_size": 143,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "html {\n  background-color: rgb(255, 100, 100);\n  color: red;\n  border: 10px dotted white;\n}\n\n\n.this {\ncolor: green;\n}\n\nh1 {\ncolor:blue;\n}\n",
+			"file": "/Users/robin/Desktop/style.css",
+			"file_size": 134,
+			"file_write_time": 131213819650000000,
+			"settings":
+			{
+				"buffer_size": 138,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/assets/js/waypoints.js",
+			"settings":
+			{
+				"buffer_size": 17548,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -46,7 +103,13 @@
 	"expanded_folders":
 	[
 		"/Users/robin/Desktop/UX-site",
+		"/Users/robin/Desktop/UX-site/bower_components",
 		"/Users/robin/Desktop/UX-site/src",
+		"/Users/robin/Desktop/UX-site/src/assets",
+		"/Users/robin/Desktop/UX-site/src/assets/js",
+		"/Users/robin/Desktop/UX-site/src/assets/scss",
+		"/Users/robin/Desktop/UX-site/src/assets/scss/includes",
+		"/Users/robin/Desktop/UX-site/src/assets/scss/includes/homepage",
 		"/Users/robin/Desktop/UX-site/src/data",
 		"/Users/robin/Desktop/UX-site/src/layouts",
 		"/Users/robin/Desktop/UX-site/src/pages",
@@ -54,6 +117,12 @@
 	],
 	"file_history":
 	[
+		"/Users/robin/Desktop/UX-site/src/partials/navigation.html",
+		"/Users/robin/Desktop/UX-site/src/pages/about.html",
+		"/Users/robin/Desktop/UX-site/src/pages/work.html",
+		"/Users/robin/Desktop/ux-backup/work-backup.html",
+		"/Users/robin/Desktop/UX-site/dist/websites.html",
+		"/Users/robin/Desktop/UX-site/dist/work.html",
 		"/Users/robin/Desktop/UX-site/src/layouts/default.html",
 		"/Users/robin/Desktop/UX-site/gulpfile.babel.js",
 		"/Users/robin/Desktop/UX-site/readme.md",
@@ -61,13 +130,14 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 106.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -75,6 +145,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"di",
+			"-->",
+			"<!--",
+			"work.html",
+			"work"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -92,14 +167,192 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/pages/work.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 921,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								921,
+								921
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2564,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2564,
+								2564
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"default_dir": "/Users/robin/Desktop/UX-site",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/robin/Desktop/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 702,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								516,
+								516
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/assets/scss/includes/_fonts.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 143,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								140,
+								140
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/robin/Desktop/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 138,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								99,
+								99
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/assets/js/waypoints.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17548,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13293,
+								13293
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 7854.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 25.0
 	},
 	"input":
 	{
@@ -136,7 +389,7 @@
 	"project": "untitled.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
